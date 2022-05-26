@@ -11,7 +11,7 @@ last-updated: 2022-05-26
 status: provisional
 ---
 
-# Proposal for open-yurt helm package
+# Install openyurt components using helm
 
 ## Table of Contents
 - [Proposal for open-yurt helm package](#title)
