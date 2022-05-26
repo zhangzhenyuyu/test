@@ -1,5 +1,5 @@
 ---
-title: Proposal Template
+title: Install openyurt components using helm
 authors:
   - "@cndoit18"
   - "@zhangzhenyuyu"
