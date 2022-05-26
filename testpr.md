@@ -13,8 +13,6 @@ status: provisional
 # Proposal for open-yurt helm package
 
 ## Table of Contents
-
-
 - [Proposal for open-yurt helm package](#title)
   - [Table of Contents](#table-of-contents)
   - [Glossary](#glossary)
@@ -32,28 +30,23 @@ status: provisional
 Refer to the [Cluster API Book Glossary](https://cluster-api.sigs.k8s.io/reference/glossary.html).
 
 ## Summary
-
 In order to deploy and use OpenYurt, OpenYurt provides users with 5 deployment methods. From a beginner's point of view, there are too many installation methods, which can easily confuse end users. Maybe we need to reduce some installation methods, and we need to define specific scenarios for each installation method.
 In order to simplify the installation process, in this proposal, we would like to provide a way of helm installation. We will write OpenYurt's chart package, which can enable OpenYurt to support installation using helm, and use the OpenYurt-helm repository to manage the chart package. In addition, we will design Github-action to synchronize the released chart package with the gh-pages branch. The entire release process is fully automated and requires no human intervention.
 
 ## Motivation
-
 In order to deploy and use OpenYurt, OpenYurt provides users with a total of 5 deployment methods. There are too many installation methods, which can easily confuse users. In addition, using OpenYurt may often have to copy yaml files between different projects, which is cumbersome. This proposal seeks to address the above issues.
 
 ### Goals
-
 - Provide the chart package of openyurt, and provide the way of helm installation.
 - Automate the chart package publishing process without manual intervention.
 
 ## Proposal
 
 ### User Stories
-
 1. As a developer of edge computing, I want to install openyurt-related components when deploying a k8s cluster for rapid development and testing.
 2. As an end user, I would like to try out the features of OpenYurt.
 
 ### Implementation Details
-
 - Which components need to organize the chart package:
     - yurt-controller-manager
     - yurt-app-manager
