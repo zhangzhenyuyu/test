@@ -10,27 +10,7 @@ last-updated: 2022-05-26
 status: provisional
 ---
 
-# Title
-
-- Keep it simple and descriptive.
-- A good title can help communicate what the proposal is and should be considered as part of any review.
-
-<!-- BEGIN Remove before PR -->
-To get started with this template:
-1. **Make a copy of this template.**
-  Copy this template into `docs/enhacements` and name it `YYYYMMDD-my-title.md`, where `YYYYMMDD` is the date the proposal was first drafted.
-1. **Fill out the required sections.**
-1. **Create a PR.**
-  Aim for single topic PRs to keep discussions focused.
-  If you disagree with what is already in a document, open a new PR with suggested changes.
-
-The canonical place for the latest set of instructions (and the likely source of this file) is [here](./YYYYMMDD-template.md).
-
-The `Metadata` section above is intended to support the creation of tooling around the proposal process.
-This will be a YAML section that is fenced as a code block.
-See the proposal process for details on each of these items.
-
-<!-- END Remove before PR -->
+# Proposal for open-yurt helm package
 
 ## Table of Contents
 
@@ -68,7 +48,6 @@ any additional information provided beyond the standard proposal template.
 
 Refer to the [Cluster API Book Glossary](https://cluster-api.sigs.k8s.io/reference/glossary.html).
 
-If this proposal adds new terms, or defines some, make the changes to the book's glossary when in PR stage.
 
 ## Summary
 
