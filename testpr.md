@@ -24,6 +24,7 @@ status: provisional
   - [Proposal](#proposal)
     - [User Stories](#user-stories)
     - [Implementation Details](#implementation-details)
+    - [Sequence Diagram](#sequence-diagram)
 
 
 ## Glossary
